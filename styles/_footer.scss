@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 3770px;
+    width: 1110px;
+    height: 23px;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    &__list {
+        gap: 25px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        flex-direction: row;
+    }
+
+    &__li {
+        list-style: none;
+    }
+    
+    &__link {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        &:hover {
+            color: rgb(255, 0, 85);
+        }
+    }
+    &__logo {
+        position: absolute;
+        left: 0;
+        top: 2px;
+        width: 90px;
+        height: 19px;
+        overflow: visible;
+    }
+    &__social {
+        list-style: none;
+        position: absolute;
+        left: 1015px;
+        top: 4px;
+        width: 95px;
+        height: 15px;
+        overflow: visible;
+    }
+  }

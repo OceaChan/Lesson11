@@ -1,0 +1,12 @@
+@use 'fonts';
+
+@import 'header';
+@import 'footer';
+@import 'main';
+
+body {
+
+    background-color: #fff;
+    font-family: fonts.$main-font;   
+}
+

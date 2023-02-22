@@ -1,0 +1,37 @@
+
+$main-font: 'Mulish', sans-serif;
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+
+}
+h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+p {
+    font-style: normal;
+    
+    &__text{
+        
+    }
+}
+
