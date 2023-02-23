@@ -1,8 +1,6 @@
 header {
     list-style-type: none;	
     position: absolute;
-    width: 1109px;
-    height: 23px;
     margin-left: 126px;
     margin-top: 61px;
     display: flex;
@@ -18,12 +16,12 @@ header {
         overflow: visible;
     }
     .nav{
+        margin-left: 1073px;
+        margin-right: 125px;
         min-width: 600px;
         display: flex;
         position: absolute;
         justify-content: flex-end;
-        width: 1109px;
-        height: 23px;
         align-items: flex-end;
         overflow: hidden;
         &__list {

@@ -1,0 +1,71 @@
+$main-txt-color: black;
+
+.contact {
+    background-color: #fff;
+    overflow: hidden;
+    font-family: fonts.$main-font;
+
+    &__title{
+    margin-top: 194px;
+    margin-left: 125px;
+    max-width: 475px;
+    max-height: 110px;
+    text-align: left;
+    line-height: 55px;
+    }
+    
+    &__info{
+        margin-top: 100px;
+        margin-left: 125px;
+        max-width: 445px;
+        max-height: 56px;
+    }
+
+    &__row{
+        display: flex;
+        flex-direction: column;
+        margin-left: 190px;
+        max-width: 600px;
+        margin-left: 760px;
+    }
+}
+
+
+label {
+    padding: 12px 12px 12px 0;
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+input[type=box] {
+    max-width: 400px;
+    max-height: 75px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #D8D8D8;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4A4FF2;
+    border: none;
+    color: white;
+    margin-top: 38px;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    max-width: 125px;
+    cursor: pointer;
+  }
+
+.map {
+    width: 1110px;
+    height: 570px;
+    margin-left: 125px;
+    margin-top: 120px;
+    margin-bottom: 179px;
+}

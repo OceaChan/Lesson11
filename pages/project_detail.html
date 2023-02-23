@@ -4,26 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/reset.css">
+        <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/style.css">
     <title>Genesis</title>
 </head>
 <body>
-    <header>
-        <img src="../images/Logo.svg" alt="Genesis">
-    </header>
+    <header class="header">
+        <a href="../home.html"><img src="../images/Logo.svg" alt="Genesis" class="header__logo"></a>
+    
     <nav class="nav">
-        <ul>
-            <li><a href="/home.html">Home</a></li>
-            <li><a href="./project_detail.html">Project details</a></li>
-            <li><a href="./contact.html">Contact</a></li>
+        <ul class="nav__list">
+            <li class="nav__li"><a href="/home.html" class="nav__link">Home</a></li>
+            <li class="nav__li"><a href="./project_detail.html" class="nav__link">Project details</a></li>
+            <li class="nav__li"><a href="./contact.html" class="nav__link">Contact</a></li>
         </ul>
     </nav>
-    <main>
-        <section></section>
+    </header>
+    <main class="project">
+        <div class="project__title">
+            <h2>A fresh new title can make all the difference!</h2>
+        </div>
+        <div class="project__box1">
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures.
+            </p>
+        </div>
+        <div class="project__box2">
+            <section class="project__box2__info">
+                <p>Project</p>
+                <hr class="project__box2__info__line">
+                <p>Design</p>
+                <hr class="project__box2__info__line">
+                <p>Client</p>
+                <hr class="project__box2__info__line">
+                <p>Deliverable</p>
+                <hr class="project__box2__info__line">
+                <p>Year</p>
+                <hr class="project__box2__info__line">
+                <p>Field</p>
+            </section>
+            <section class="project__box2__info2">
+                <p>Genesis Portfolio</p>
+                <br>
+                <p>Bakhtiyar Sattarov</p>
+                <br>
+                <p>Crarftwork</p>
+                <br>
+                <p>Website Design</p>
+                <br>
+                <p>2018</p>
+                <br>
+                <p>Branding, Personal</p>
+            </section>
+        </div>
+        <div class="project__image">
+            <img src="../images/Image (2).png" alt="woman walking">
+        </div>
+        <div class="project__box1">
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, You need to be sure there isn't anything embarrassing hidden in the middle of text. You need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+        </div>
+        <div class="project__gallery">
+            <img src="../images/Image3.png" alt="mountain">
+            <img src="../images/Image2.png" alt="flowers">
+            <img src="../images/Image.png" alt="neon">
+        </div>
     </main>
-    <footer>
-
-    </footer>
+    <footer class="footer">
+        <div class="footer__logo"> <img src="../images/Logo.svg" alt="Genesis"></div>
+        
+            <nav class="footernav">
+                <ul class="footernav__list">
+                    <li class="footernav__li"><a href="/home.html" class="footernav__link">Home</a></li>
+                    <li class="footernav__li"><a href="project_detail.html" class="footernav__link">Project details</a></li>
+                    <li class="footernav__li"><a href="contact.html" class="footernav__link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="footer__social">
+                <div class="footer__social__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Path">
+                        <path fill="black" d="M18 1.65598C17.3375 1.937 16.6266 2.12758 15.8797 2.21266C16.6424 1.7755 17.2261 1.0821 17.5028 0.258405C16.7874 0.663244 15.9978 0.957209 15.1565 1.11657C14.4827 0.428545 13.5244 0 12.4615 0C10.4222 0 8.76879 1.58278 8.76879 3.5338C8.76879 3.81051 8.80141 4.08076 8.86441 4.3392C5.796 4.19167 3.07515 2.7844 1.25412 0.646013C0.935794 1.16716 0.754706 1.7744 0.754706 2.42261C0.754706 3.64901 1.40709 4.73111 2.39691 5.3642C1.79176 5.34483 1.22262 5.18548 0.724353 4.9206L0.724353 4.96474C0.724353 6.67673 1.99762 8.10553 3.68591 8.43072C3.37659 8.5104 3.05041 8.55454 2.71297 8.55454C2.47453 8.55454 2.24394 8.53193 2.01785 8.48886C2.488 9.89398 3.85126 10.9158 5.46647 10.9438C4.20332 11.8913 2.61062 12.4544 0.880706 12.4544C0.582647 12.4544 0.289059 12.4372 0 12.406C1.63432 13.4106 3.57459 13.9963 5.65994 13.9963C12.4525 13.9963 16.1655 8.61054 16.1655 3.93974L16.1531 3.48214C16.8786 2.98681 17.5062 2.36447 18 1.65598Z">
+                            
+                        </path>
+                    </svg>
+                    <img src="images/dribbble-logo.png" alt="dribblelogo">
+                </div>
+            </div>
+</footer>
 </body>
 </html>

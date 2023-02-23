@@ -1,6 +1,15 @@
 
 $main-font: 'Mulish', sans-serif;
 
+h2 {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px; 
+    
+}
+
 h3 {
     font-style: normal;
     font-weight: 700;
@@ -29,6 +38,9 @@ h6 {
 }
 p {
     font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
     
     &__text{
         
